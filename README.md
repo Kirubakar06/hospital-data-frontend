@@ -1,6 +1,6 @@
 # CarePoint Hospital Management Frontend
 
-A responsive React + Vite hospital management app connected to the Express/MySQL backend in `backend and database/`.
+A responsive React + Vite hospital management app connected to the Express/MySQL backend in the sibling `../backend and database/` folder.
 
 ## Requirements
 
@@ -14,9 +14,9 @@ npm install
 npm run dev
 ```
 
-Before starting, configure MySQL and `backend and database/.env` as described in [backend and database/README.md](./backend%20and%20database/README.md). `npm run dev` starts the API and Vite frontend together; open `http://localhost:5173`. Vite forwards `/api` requests to the backend on port 5000.
+Before starting, configure MySQL and `../backend and database/.env` as described in [the backend README](../backend%20and%20database/README.md). `npm run dev` starts the API and Vite frontend together; open `http://localhost:5173`. Vite forwards `/api` requests to the backend on port 5000.
 
-For a local demo, copy [`.env.example`](./backend%20and%20database/.env.example) to `backend and database/.env`, enter the MySQL administrator password, then run `npm run db:setup`, `npm run seed:admin`, and `npm run seed:demo` from the project root.
+For a local demo, copy the backend [`.env.example`](../backend%20and%20database/.env.example) to `../backend and database/.env`, enter the MySQL administrator password, then run `npm run db:setup`, `npm run seed:admin`, and `npm run seed:demo` from the frontend project root.
 
 Production build and preview:
 
@@ -46,4 +46,4 @@ src/
   main.jsx
 ```
 
-Backend installation, MySQL setup, and known limitations are documented in [backend and database/README.md](./backend%20and%20database/README.md).
+Backend installation, MySQL setup, and known limitations are documented in [the backend README](../backend%20and%20database/README.md).
